@@ -18,14 +18,6 @@ Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1
 $ cd abedkarableh
 
 Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
-$ git add abedkarableh
-fatal: pathspec 'abedkarableh' did not match any files
-
-Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
-$ ^[[200~touch abedkarableh
-bash: $'\E[200~touch': command not found
-
-Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
 $ touch abedkarableh
 
 Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
@@ -55,3 +47,57 @@ On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abedkarableh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$ git commit -m "Add abedkarableh file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abedkarableh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$ git add abedkarableh
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$ git commit -m "Add abedkarableh file"
+[main 58b433d] Add abedkarableh file
+ 1 file changed, 57 insertions(+)
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 877 bytes | 877.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Abedkarableh/abedkarableh.git
+   172bef1..58b433d  main -> main
+
+Abed ak2@DESKTOP-1TI128N MINGW64 ~/Documents/HW1/abedkarableh (main)
+$
